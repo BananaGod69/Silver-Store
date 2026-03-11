@@ -1,5 +1,5 @@
 body {
-    background-image: url("C:\\Users\\giles\\Documents\\New folder (2)\\Images\\agnes-tachyon-uma-musume.gif");
+    background-image: url("Images/agnes-tachyon-uma-musume.gif");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -144,3 +144,4 @@ body {
 .footer h2 {
     margin: 0;
 }
+
