@@ -1,0 +1,146 @@
+body {
+    background-image: url("C:\\Users\\giles\\Documents\\New folder (2)\\Images\\agnes-tachyon-uma-musume.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f8ff; /* Fallback color */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(135deg, #667eea9f 0%, #764ba2 100%);
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 150px;
+    margin-left:10%;
+    margin-right:10%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    /* switch to row so images flank the text */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-img {
+    width: 80px;
+    height: auto;
+    margin: 0 15px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: #ffffff8a;
+    width: 80%;
+    height: 50px;
+    margin-left:10%;
+    margin-right:10%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #667eea;
+    color: white;
+}
+
+.side {
+    background-color: #ffffff8a;
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main {
+    background-color: #ffffff8a;
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contentimg {
+    background-color: #ffffff8a;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+}
+
+.footer {
+    background: linear-gradient(135deg, #667eea9f 0%, #764ba2 100%);
+    color: white;
+    width: 80%;
+    height: auto;
+    margin-left:10%;
+    margin-right:10%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 10px 15px;
+    display: inline-block;
+}
+
+.footer h2 {
+    margin: 0;
+}
